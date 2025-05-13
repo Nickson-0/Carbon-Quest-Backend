@@ -6,10 +6,15 @@
 
 It immerses players in a global scenario where they control a fictional country’s resources, finances, global trade, and energy production infrastructure.
 
+![Log In Screen](./ReadMe_images/log_in.png)
+![Room ID Screen](./ReadMe_images/room_id.png)
+
 The game is:
 - **Round-based**: 3 rounds of 15 minutes each, with each round representing a year of in-game time.
 - **Collaborative & multiplayer**: Players must work together while managing their own countries.
 - **Educational**: Designed to teach about climate change, sustainability, and geopolitics.
+
+![Game Lobby - Are You Ready?](./ReadMe_images/are_you_ready.png)
 
 ## Core Gameplay
 
@@ -19,17 +24,28 @@ Players must:
 - **Build and fuel** power plants.
 - **Strategically manage** energy sources to balance sustainability with productivity.
 
+### Gameplay Screenshots
+
+**Marketplace**
+![Marketplace](./ReadMe_images/marketplace.png)
+
+**Fueling Station**
+![Fueling Station](./ReadMe_images/fueling_station.png)
+
+**Power Plants Management**
+![Power Plants](./ReadMe_images/powerplants.png)
+
 ## Key Metrics to Monitor
 
-- Non-renewable energy reserves
-- Renewable energy capacity
-- Carbon emissions
-- National wealth
-- Total energy production
+- Non-renewable energy reserves  
+- Renewable energy capacity  
+- Carbon emissions  
+- National wealth  
+- Total energy production  
 
 ## Game Loop & Win Condition
 
-Despite carefully managing these factors, success is not guaranteed—players will need to make smart, adaptive decisions under time pressure.
+Despite carefully managing these factors, success is not guaranteed—players must make smart, adaptive decisions under time pressure.
 
 The game concludes after the final round:
 - Players are evaluated based on their total energy production.
@@ -44,7 +60,7 @@ The game concludes after the final round:
 
 **Carbon Quest** is a loose simulation of countries on the global stage trading among each other to acquire the resources needed to invest in and fuel various power plants. The primary objective is to reach national energy requirements within a defined time constraint.
 
-This is **not** a high-fidelity simulation of real-world global trade. Instead, the game is designed to highlight elements of global trade that align with its educational goals and to introduce simplified principles of economics such as:
+This is **not** a high-fidelity simulation of real-world global trade. Instead, the game is designed to highlight elements of global trade that align with its educational goals and to introduce simplified principles of economics, such as:
 
 - **Scarcity**
 - **Supply and demand**
@@ -71,5 +87,10 @@ Given the adolescent audience (15–17 years old) and the overwhelming complexit
 
 ---
 
-> The goal is not to replicate real-world economics but to **engage young players** with the challenges of energy strategy, cooperation, and resource management in an accessible, game-based format.
+> The goal is not to replicate real-world economics but to **engage young players** with energy strategy, cooperation, and resource management challenges in an accessible, game-based format.
 
+## System Architecture
+
+The diagram below represents a high-level overview of how the game's systems interact.
+
+![Architecture Diagram](./ReadMe_images/Architecture%20Diagram.png)
